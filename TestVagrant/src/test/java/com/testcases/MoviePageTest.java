@@ -28,7 +28,7 @@ public class MoviePageTest extends TestBase
 	public void moviedetailsvalidate() throws IOException 
 	{
 		MoviePage.ValidateDate();
-		//MoviePage.ValidateOrigin();
+		MoviePage.Validateorigin();
 	}
 	
 	@AfterMethod
